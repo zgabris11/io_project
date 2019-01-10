@@ -1,41 +1,10 @@
 body{
     margin: 0;
 }
-/* .shittylaptop img{
-    width: 100%;
-    margin: center;
-    position: absolute;
-    top: 30%;
-    left: 0;
-} */
-/* .me{
-    position: relative;
-    right: 0;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-}
-.me h1{
-    color:#950740;
-    text-align: center;
-}
-.me h2{
-    text-align: center;
-}
-.me img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    radius: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.me-inner {
-    padding: 30% 0 0;
-} */
 .header {
     position: relative;
     text-align: center;
+    
 }
 
 .header-inner {
@@ -44,6 +13,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    border: solid black 4px;
+    outline-offset: 20px;
+    margin: 20px
 }
 .headshot img {
     width: 65px;
@@ -68,7 +40,7 @@ body{
 .twitter a{
     padding: 0;
     margin:0;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .about{
@@ -111,6 +83,11 @@ body{
 }
 .proud h5{
     color:#a4b3b6;
+}
+.html{
+    background-color: #44318d;
+    text-align: center;
+    color: white;
 }
 .magnolia{
     font-family: 'Oswald', sans-serif;
@@ -156,32 +133,26 @@ body{
     margin-top:20px;
     text-decoration: none;
 }
+.javaScript {
+     text-align: center;
+     background-color: #44318d;
+}
+.javaScript {
+    color: white;
+}
 .contact{
     font-family: 'Oswald', sans-serif;
     text-align: left;
-}
-.contact li a{
-   
-    
-}
-.contact{
     background-color:rgb(192, 90, 218);
+}
+.contact li{
+    list-style: none;
+    position: relative;
+    right: 40px;
 }
 .contact p{
     text-align: left;
 }
-.silver{
-    background-color: rgb(192, 90, 218);
-}
-.silver ul{
-    padding: 0;
-}
-.silver ul li{
-    clear: both;
-    text-decoration: none;
-    list-style-type: none;
-}
-
 @media(min-width: 1200px){
     
     .about{
