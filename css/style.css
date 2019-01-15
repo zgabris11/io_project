@@ -6,16 +6,15 @@ body{
     text-align: center;
     
 }
-
 .header-inner {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border: solid black 4px;
     outline-offset: 20px;
-    margin: 20px
+    margin: 20px;
+    border: solid black 4px;
 }
 .headshot img {
     width: 65px;
@@ -27,7 +26,7 @@ body{
     font-family: 'Ultra', serif;
 }
 .headshot h2{
-    font-size: 15px;
+    font-size: 20px;
     color:#950740;
 }
 .headshot {
@@ -40,7 +39,7 @@ body{
 .twitter a{
     padding: 0;
     margin:0;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .about{
@@ -140,6 +139,45 @@ body{
 .javaScript {
     color: white;
 }
+.atm {
+    font-family: 'Oswald', sans-serif;
+    background-color: #44318d;
+    position: relative;
+}
+.atm a {
+    padding: 5px 10px;
+    border-radius:5px;
+    background-color: #2a1b3d;
+    color: #950740;
+    margin-top:20px;
+    text-decoration: none;
+}
+.atm h3 {
+    color: white;
+}
+.atm img{
+    width: 550px;
+    height: 350px;
+}
+.joke {
+    font-family: 'Oswald', sans-serif;
+    background-color: #44318d;
+}
+.joke a{
+    padding: 5px 10px;
+    border-radius:5px;
+    background-color: #2a1b3d;
+    color: #950740;
+    margin-top:20px;
+    text-decoration: none;
+}
+.joke h3 {
+    color: white;
+}
+.joke img {
+    width: 550px;
+    height: 350px;
+}
 .contact{
     font-family: 'Oswald', sans-serif;
     text-align: left;
@@ -165,16 +203,17 @@ body{
        padding-left: 25px;
    }
    .headshot a{
-       font-size: 50px;
+       font-size: 20px;
    }
    .headshot img {
     width: 100px;
     border-radius: 50%;
    }
    .headshot h1{
-    font-size: 50px;
-    color: #950740;
-    font-family: 'Ultra', serif;
+        margin-top: 10px;
+        font-size: 50px;
+        color: #950740;
+        font-family: 'Ultra', serif;
     }
     .headshot h2{
         font-size: 40px;
